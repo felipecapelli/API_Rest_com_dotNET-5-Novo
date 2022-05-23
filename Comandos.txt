@@ -10,6 +10,7 @@ dotnet add package Microsoft.EntityFrameworkCore --version 5.0.5
 dotnet add package Microsoft.EntityFrameworkCore.Tools --version 5.0.5
 dotnet add package MySql.Data.EntityFrameworkCore --version 5.0.3
 dotnet tool install --global dotnet-ef
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 8.1.1
 
 Execute o comando de criação de migration:
 dotnet ef migrations add FilmeMigration
